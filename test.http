@@ -1,0 +1,9 @@
+@url=http://localhost:8080
+
+POST {{url}}/kafka/send
+Content-Type: application/json
+
+{
+  "status": 201,
+  "message": "From API Test!"
+}

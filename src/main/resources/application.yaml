@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: tstkafka
+kafka:
+  bootstrap-servers: localhost:9092
+  group-id: testapp
+  topic: test
+  properties:
+    security_protocol: SASL_SSL
+    sasl:
+      jaas:
+        config: org.apache.kafka.common.security.plain.PlainLoginModule required username='-----' password='-----';
+      mechanism: PLAIN
+logging:
+  level:
+    org:
+      apache:
+        kafka: warn
+    root: info

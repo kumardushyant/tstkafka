@@ -17,7 +17,6 @@ import org.springframework.kafka.core.KafkaTemplate
 import org.springframework.kafka.core.ProducerFactory
 import org.springframework.kafka.listener.ConcurrentMessageListenerContainer
 import org.springframework.kafka.listener.ContainerProperties
-import tut.dushyant.kafka.consumer.KafkaConsumer
 import tut.dushyant.kafka.web.dto.KafkaWebDTO
 
 @Configuration
